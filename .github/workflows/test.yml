@@ -15,3 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: ls /Applications
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode_11.6.app
+    - name: Test
+      run: xcodebuild test -scheme MovableToolbarTests -configuration Debug -sdk iphonesimulator -destination 'name=iPhone 8'
