@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  MovableToolbar
+
+  Created by Kazuya Ueoka on 2020/07/21.
+  Copyright © 2020 fromkk. All rights reserved.
+*/
+
+"first_name" = "名";
+
+"last_name" = "姓";
+
+"email" = "メールアドレス";
+
+"password" = "パスワード";
+
+"address" = "住所";
