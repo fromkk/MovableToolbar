@@ -8,15 +8,18 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 public protocol MovableToolbarDataSource: AnyObject {
     func numberOfRows(in toolbar: MovableToolbar) -> Int
     func inputView(with toolbar: MovableToolbar, row: Int) -> UIView?
 }
 
+@available(iOS 13.0, *)
 public protocol MovableToolbarDelegate: AnyObject {
     func currentInputView(with toolbar: MovableToolbar) -> UIView?
 }
 
+@available(iOS 13.0, *)
 @IBDesignable
 open class MovableToolbar: UIToolbar {
     public override init(frame: CGRect) {
