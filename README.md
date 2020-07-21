@@ -2,6 +2,8 @@
 
 `MovableToolbar` is library for easy move and focus of textFields for UIKit.
 
+![Swift](https://github.com/fromkk/MovableToolbar/workflows/Swift/badge.svg)
+
 ![sample](./Resources/sample.gif)
 
 ## Install
